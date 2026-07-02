@@ -1,0 +1,525 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Car</title>
+
+    <!--css link-->
+    <link rel="stylesheet" href="style.css">
+    <!--Font link-->
+    <link rel="preconnect" href="https://rsms.me/">
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css">
+
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+        integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+
+   <!--Background video-->
+    <section class="hero-cars">
+
+        <video autoplay muted loop playsinline class="background-video-cars">
+            <source src="istockphoto-2158963367-640_adpp_is.mp4" type="video/mp4">
+        </video>
+
+        <div class="overlay"></div>
+
+
+     
+       <!-- Logo -->
+<img src="Gemini_Generated_Image_q4arp5q4arp5q4ar-removebg-preview.png"
+     alt="Dream Car Logo"
+     class="logo">
+
+<!-- Mobile Menu Icon -->
+<div class="navbar-menu-toggle" onclick="showNavbar()">
+    <i class="fa-solid fa-bars"></i>
+</div>
+
+<!-- Navbar -->
+
+
+<nav class="navbar">
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="cars.html">Cars</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+<!-- Side Navbar -->
+<div class="side-navbar">
+
+    <p class="close-btn" onclick="closeNavbar()">
+        <i class="fa-solid fa-xmark"></i>
+    </p>
+
+    <div class="side-navbar-links">
+        <p class="side-navbar-link"><a href="index.html">Home</a></p>
+        <p class="side-navbar-link"><a href="cars.html">Cars</a></p>
+        <p class="side-navbar-link"><a href="about.html">About</a></p>
+        <p class="side-navbar-link"><a href="contact.html">Contact</a></p>
+    </div>
+
+</div>
+
+
+
+
+
+
+
+
+
+ <!--Cards-->
+
+ 
+ <div class="cars-container">
+
+
+<div class="car-card">
+    <div class="car-image">
+        <img src="02_bugatti-showroom_new-ci_tokyo.jpg" alt="Bugatti">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>Bugatti Chiron Sport</h3>
+
+        <div class="price">
+            $3,300,000
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2024</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>Automatic 7-Speed DCT </span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol (8.0L Quad-Turbo W16)</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>0 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+
+<div class="car-card">
+    <div class="car-image">
+        <img src="images (1).jfif" alt="Mercedes-Benz ">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>Mercedes-Benz C63 AMG</h3>
+
+        <div class="price">
+            $78,500
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2023</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>Automatic (9-Speed AMG SPEEDSHIFT)</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>18,500 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+<div class="car-card">
+    <div class="car-image">
+        <img src="186309457.jpg" alt="Bently">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>Bentley Continental GT V8</h3>
+
+        <div class="price">
+            $235,000
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2024</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>8-Speed Automatic</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>5,800 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+
+<div class="car-card">
+    <div class="car-image">
+        <img src="images (2).jfif" alt="Range Rover">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>Range Rover Velar P400 Dynamic HSE</h3>
+
+        <div class="price">
+          $92,500
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2024</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>8-Speed Automatic</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>0 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+<div class="car-card">
+    <div class="car-image">
+        <img src="audi-gurugram-gurgaon-sector-29-gurgaon-car-dealers-j1i0tnsso2.avif" alt="Audi Car">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>Audi A8 L 55 TFSI quattro</h3>
+
+        <div class="price">
+            $89,500
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2024</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>Automatic 8-Speed </span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>0 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+
+
+<div class="car-card">
+    <div class="car-image">
+        <img src="hq720.jpg" alt="Rolls Royce">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>Rolls-Royce Phantom</h3>
+
+        <div class="price">
+            $517,750
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2024</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>Automatic 8-Speed </span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol (6.75L Twin-Turbo V12)</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>0 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+
+
+
+<div class="car-card">
+    <div class="car-image">
+        <img src="Mini Launch Mumbai (7).jfif" alt="Mini Cooper">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>MINI Cooper S Hatch 3-Door (F56 LCI)</h3>
+
+        <div class="price">
+            $34,900
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2024</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>Automatic 8-Speed </span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>0 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+
+
+ <div class="car-card">
+    <div class="car-image">
+        <img src="BMW-M4-Competition-50-Jahre-1.jpg" alt="BMW M4">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>BMW M4 Competition</h3>
+
+        <div class="price">
+            $72,000
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2024</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>Automatic</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>12,000 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+
+
+<div class="car-card">
+    <div class="car-image">
+        <img src="Bez-Media-00133-ret-960px-website-640x640.jpg" alt="Ferrari">
+        <span class="wishlist"><i class="fa-regular fa-heart"></i></span>
+    </div>
+
+    <div class="car-content">
+        <h3>Ferrari 488 Pista</h3>
+
+        <div class="price">
+            $350,000
+        </div>
+
+        <div class="car-details">
+            <div class="detail">
+                <i class="fa-solid fa-calendar"></i>
+                <span>2020</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gears"></i>
+                <span>Automatic 7-Speed DCT </span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-gas-pump"></i>
+                <span>Petrol (3.9L Twin-Turbo V8)
+</span>
+            </div>
+
+            <div class="detail">
+                <i class="fa-solid fa-road"></i>
+                <span>0 KM</span>
+            </div>
+        </div>
+
+        <button class="view-btn">
+            View Details
+        </button>
+    </div>
+</div>
+
+
+
+
+
+</div>
+   
+    <!--Footer-->
+<div class="footer">
+  <!--Footer Rights-->
+  
+ <!--Footer logo-->
+  <div class="footer-logo">
+    <h4>Dream Car</h4>
+    <img src="Gemini_Generated_Image_q4arp5q4arp5q4ar-removebg-preview.png">
+  </div>
+
+ <div class="quick-link">
+    <h4>Quick Links     </h4>
+
+   <div class="quick-links">
+     <p><a href="index.html">Home</a></p>
+      <p><a href="cars.html">Cars</a></p>
+        <p><a href="about.html">About</a></p>
+        <p><a href="contact.html">Contact</a></p>
+
+
+    </div>
+  
+
+ </div>
+
+ <!-- Footer Contact-->
+  <div class="footer-contact">
+    <h4>Contact</h4>
+    <div class="footer-contact-details"> 
+        <p><i class="fa-solid fa-location-dot"></i>Colombo,Sri Lanka</p>
+    <p><i class="fa-solid fa-envelope"></i>info@dreamcar.com</p>
+    <p><i class="fa-solid fa-phone"></i>+94xxxxxxxxx</p>
+
+</div>
+   
+    
+
+  </div>
+
+  <!--Social media icons-->
+  <div class="footer-icons">
+    <h4>Follow Us</h4>
+    <i class="fa-brands fa-instagram"></i>
+    <i class="fa-brands fa-facebook"></i>
+    <i class="fa-brands fa-x"></i>
+    <i class="fa-brands fa-linkedin"></i>
+    <i class="fa-brands fa-telegram"></i>
+  </div>
+
+ <div class="footer-rights">
+    <p>© 2026 Dream Car. All Rights Reserved.</p>
+    <p>Privacy Policy | Terms & Conditions</p>
+
+  </div>
+  
+</div>
+
+</body>
+<script src="index.js"></script>
+</html>
