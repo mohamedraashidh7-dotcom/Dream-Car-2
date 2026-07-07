@@ -1093,6 +1093,9 @@ width:100%;
 /*Mobile Responsive!*/
 
 @media screen and (max-width: 600px) {
+    .home-body{
+         margin-right: -10%;
+    }
   .navbar{
         display:none;
     }
